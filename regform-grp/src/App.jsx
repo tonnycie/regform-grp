@@ -30,8 +30,7 @@ function App() {
          return errors;}
          if(values.password !== values['confirm password']) {
            errors['confirm password'] = 'Passwords must match';
-         }
-         return errors;
+          return errors;}
           if (!values['phone number']) {
            errors['phone number'] = 'Optional';
          return errors;}
