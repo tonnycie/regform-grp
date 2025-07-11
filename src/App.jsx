@@ -87,7 +87,7 @@ function App() {
 />
 <ErrorMessage name="Last Name" component="div" />
 
-           <Field
+<Field
   type="text"
   name="Middle Name"
   placeholder="Middle Name"
@@ -100,7 +100,11 @@ function App() {
   placeholder="Address line 1"
 />
 <ErrorMessage name="Address line 1" component="div" />
-
+<Field
+  type="password"
+  name="Password"
+  placeholder="Password"
+/>
 
             <Autocomplete
       id="country-select-demo"
