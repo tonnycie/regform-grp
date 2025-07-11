@@ -87,6 +87,21 @@ function App() {
 />
 <ErrorMessage name="Last Name" component="div" />
 
+           <Field
+  type="text"
+  name="Middle Name"
+  placeholder="Middle Name"
+/>
+<ErrorMessage name="Middle Name" component="div" />
+
+           <Field
+  type="text"
+  name="Address line 1"
+  placeholder="Address line 1"
+/>
+<ErrorMessage name="Address line 1" component="div" />
+
+
             <Autocomplete
       id="country-select-demo"
       sx={{ width: 300 }}
